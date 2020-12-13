@@ -1,0 +1,34 @@
+ <h1>Race Registration!</h1> 
+    <form action="katt.html">
+        <label for="Fname">First Name</label>
+<input type="text" name="Fname" id="Fname">
+<label for="Lname">Last Name</label>
+<input type="text" name="Lname" id="Lname">
+<p></p>
+Select a Race:
+<p></p>
+<input type="radio" name="size" id="5k" value="5k">
+<label for="5k">Fun Run 5k</label>
+    </br>
+<input type="radio" name="size" id="21k" value="21k">
+<label for="21k">Half Marathon</label>
+</br>
+<input type="radio" name="size" id="42k" value="42k">
+<label for="42k">Full Marathon</label>
+    </br>
+    <label for="email">Email</label>
+<input type="email" name="email" id="email" 
+pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">
+<label for="password">Password</label>
+<input type="password" name="password" id="password" pattern="[a-z]{4,8}" title="4 to 8 lowercase letters" required> 
+</br>
+<label for="age">Select age group</label>
+<Select name="age" id="age">
+<option value="under18">Under 18</option>
+<option value="over18">Over 18</option>
+</Select>
+</br>
+<button>Register</button>
+
+    </form>
+  
